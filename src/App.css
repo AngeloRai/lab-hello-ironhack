@@ -1,1 +1,68 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  
+}
 
+.header{
+  background-color: #0d1016e8;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.main-center {
+  
+  display: flex;
+  align-items: center;
+  background-color: #0d1016e8;
+  height: 40rem;
+  width: 1000px;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.text {
+  
+  width: 40%;
+  margin-left: 5rem;
+}
+.main-text {
+  width: 70%;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.my-btn{
+  margin-top: 2.5rem;
+  height: 3.1rem;
+  font-weight: 700;
+  color: rgb(88, 86, 86);
+}
+
+.bottom-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  height: 25rem;
+  margin-top: 5rem;
+}
+
+.boxes {
+  justify-content: center;
+  width: 12rem;
+  text-align: left;
+}
+.behind-right{
+  height: 50%;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+}
+.react-behind-center{
+  height: 150px;
+  padding: 1rem;
+}
